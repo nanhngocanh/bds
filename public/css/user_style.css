@@ -1,0 +1,28 @@
+#form {
+    display: none;
+    position: fixed;
+    width: 600px;
+    z-index: 1001;
+    background-color: rgba(243, 221, 221, 0.5);
+    border-radius: 3%;
+}
+
+#show-more{
+    position: relative;
+}
+
+#show-more-box {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    width: 150px;
+    right: 180px;
+    top: 30px;
+    background-color: rgb(242, 247, 219);
+    border-radius: 10%;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.show-more-item:hover{
+    background-color: rgb(197, 202, 202);
+}
